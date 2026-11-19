@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Гараж №1 — СТО и шиномонтаж в Вашем городе | Ремонт, балансировка, сход-развал</title>
+  <meta name="description" content="СТО и шиномонтаж «Гараж №1»: шиномонтаж любой сложности, ремонт тормозов и ходовой, замена масла, сход-развал. Честный прайс, запись по телефону.">
+  <meta property="og:title" content="Гараж №1 — СТО и шиномонтаж">
+  <meta property="og:description" content="Шиномонтаж, ремонт ходовой, тормозов, замена масла. Запишитесь на удобное время.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Гараж №1",
+    "description": "СТО и шиномонтаж",
+    "telephone": "+7 (000) 000-00-00",
+    "openingHours": "Mo-Su 08:00-21:00",
+    "address": { "@type": "PostalAddress", "streetAddress": "ул. Примерная, 1 (демо-адрес)", "addressLocality": "Ваш город" }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="header__logo" aria-label="Гараж №1 — на главную">
+        <img src="assets/logo-light.svg" alt="Гараж №1 — СТО, шиномонтаж, автосервис" width="160" height="48">
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a class="nav__link" href="#services">Услуги</a>
+        <a class="nav__link" href="#prices">Цены</a>
+        <a class="nav__link" href="#reviews">Отзывы</a>
+        <a class="nav__link" href="#contacts">Контакты</a>
+      </nav>
+      <div class="header__actions">
+        <a class="btn btn--lime btn--sm header__phone" href="tel:+70000000000">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.5 2.9 3.7 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.8 21 3 13.2 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="currentColor"/></svg>
+          +7 (000) 000-00-00
+        </a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__badge reveal">СТО · Шиномонтаж · Ваш город</p>
+          <h1 class="hero__title reveal reveal--d1">Гараж&nbsp;№1 — чиним быстро, отдаём вовремя</h1>
+          <p class="hero__lead reveal reveal--d2">Шиномонтаж любой сложности, тормоза, ходовая, масло и сход-развал. Прозрачный прайс до начала работ — без сюрпризов в чеке.</p>
+          <div class="hero__cta reveal reveal--d3">
+            <a class="btn btn--lime" href="#contacts">Записаться на сервис</a>
+            <a class="btn btn--ghost" href="#prices">Смотреть прайс</a>
+          </div>
+          <ul class="hero__facts reveal reveal--d4">
+            <li><strong>08:00–21:00</strong><span>без выходных</span></li>
+            <li><strong>30 мин</strong><span>стандартный шиномонтаж</span></li>
+            <li><strong>Гарантия</strong><span>на все работы</span></li>
+          </ul>
+        </div>
+        <div class="hero__visual reveal reveal--d2" aria-hidden="true">
+          <svg viewBox="0 0 520 420" class="hero__svg" role="img">
+            <defs>
+              <linearGradient id="carBody" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#79a0bd"/><stop offset="1" stop-color="#46617e"/>
+              </linearGradient>
+            </defs>
+            <!-- подъёмник -->
+            <rect x="40" y="330" width="440" height="14" rx="4" fill="#a3beab"/>
+            <rect x="70" y="250" width="10" height="82" fill="#a3beab"/>
+            <rect x="440" y="250" width="10" height="82" fill="#a3beab"/>
+            <!-- автомобиль -->
+            <g class="hero__car">
+              <path d="M120 260 Q150 200 220 190 L330 190 Q390 196 420 240 L440 252 Q455 258 455 276 L455 292 Q455 302 445 302 L110 302 Q100 302 100 292 L100 276 Q100 264 120 260 Z" fill="url(#carBody)"/>
+              <path d="M225 205 L320 205 Q360 210 382 242 L212 242 Q212 220 225 205 Z" fill="#1e243c" opacity=".85"/>
+              <rect x="105" y="282" width="345" height="8" rx="4" fill="#ccd79f"/>
+              <circle cx="170" cy="302" r="30" fill="#1e243c" stroke="#ccd79f" stroke-width="6"/>
+              <circle cx="170" cy="302" r="9" fill="#79a0bd"/>
+              <circle cx="385" cy="302" r="30" fill="#1e243c" stroke="#ccd79f" stroke-width="6"/>
+              <circle cx="385" cy="302" r="9" fill="#79a0bd"/>
+            </g>
+            <!-- шестерня -->
+            <g class="hero__gear" style="transform-origin:452px 92px">
+              <circle cx="452" cy="92" r="34" fill="none" stroke="#ccd79f" stroke-width="8" stroke-dasharray="14 10"/>
+              <circle cx="452" cy="92" r="14" fill="none" stroke="#ccd79f" stroke-width="6"/>
+            </g>
+            <!-- ключ -->
+            <g class="hero__wrench" style="transform-origin:70px 90px">
+              <path d="M52 108 a20 20 0 1 1 22 -30 l34 34 -10 10 -34 -34 a20 20 0 0 1 -12 20 z" fill="#a3beab" transform="rotate(8 70 90)"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ЛЕНТА УСЛУГ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Шиномонтаж</span><i>✦</i><span>Балансировка</span><i>✦</i><span>Ремонт проколов</span><i>✦</i><span>Сход-развал 3D</span><i>✦</i><span>Тормоза</span><i>✦</i><span>Ходовая</span><i>✦</i><span>Замена масла</span><i>✦</i><span>Диагностика</span><i>✦</i><span>Кондиционеры</span><i>✦</i>
+        <span>Шиномонтаж</span><i>✦</i><span>Балансировка</span><i>✦</i><span>Ремонт проколов</span><i>✦</i><span>Сход-развал 3D</span><i>✦</i><span>Тормоза</span><i>✦</i><span>Ходовая</span><i>✦</i><span>Замена масла</span><i>✦</i><span>Диагностика</span><i>✦</i><span>Кондиционеры</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- УСЛУГИ -->
+    <section class="section" id="services">
+      <div class="container">
+        <p class="section__label">Что делаем</p>
+        <h2 class="section__title">Услуги сервиса</h2>
+
+        <h3 class="group-title">Шиномонтаж</h3>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="24" cy="24" r="7" fill="none" stroke="currentColor" stroke-width="4"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M15 33l-4 4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+            </div>
+            <h4 class="card__title">Легковой шиномонтаж</h4>
+            <p class="card__sub">R13–R17: сезонная перебортовка, балансировка, подкачка.</p>
+            <p class="card__price">от 1 200 ₽ <span>/ комплект</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><path d="M8 30h32l-4-10H14z" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linejoin="round"/><circle cx="15" cy="36" r="4.5" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="33" cy="36" r="4.5" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+            </div>
+            <h4 class="card__title">Кроссоверы и внедорожники</h4>
+            <p class="card__sub">R17–R20, усиленные борта, низкопрофильная резина.</p>
+            <p class="card__price">от 1 600 ₽ <span>/ комплект</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><rect x="6" y="14" width="36" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="3.4"/><circle cx="15" cy="34" r="5" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="33" cy="34" r="5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M12 14V9h24v5" stroke="currentColor" stroke-width="3.4"/></svg>
+            </div>
+            <h4 class="card__title">Коммерческий транспорт</h4>
+            <p class="card__sub">Микроавтобусы и лёгкие грузовики до 3,5 т, без очереди по записи.</p>
+            <p class="card__price">от 2 200 ₽ <span>/ комплект</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><path d="M30 8 18 26h8l-6 14 14-20h-9z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/></svg>
+            </div>
+            <h4 class="card__title">Ремонт повреждений</h4>
+            <p class="card__sub">Грибки и жгуты от прокола, вулканизация боковых порезов.</p>
+            <p class="card__price">от 400 ₽ <span>/ повреждение</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+        </div>
+
+        <h3 class="group-title">Автосервис</h3>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="3.4"/><path d="M24 14v10l7 5" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4 class="card__title">Тормозная система</h4>
+            <p class="card__sub">Колодки, диски, суппорты, прокачка и диагностика.</p>
+            <p class="card__price">от 800 ₽ <span>/ ось</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><path d="M10 34c4-2 6-8 14-8s10 6 14 8" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><circle cx="14" cy="36" r="5" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="34" cy="36" r="5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M14 20h20" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></svg>
+            </div>
+            <h4 class="card__title">Ходовая часть</h4>
+            <p class="card__sub">Шаровые, стойки, ступичные подшипники, рычаги.</p>
+            <p class="card__price">от 1 000 ₽ <span>/ работа</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><path d="M14 10h20v8l-6 8v12h-8V26l-6-8z" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/><path d="M20 40h8" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg>
+            </div>
+            <h4 class="card__title">Замена масла и Жидкостей</h4>
+            <p class="card__sub">ДВС, АКПП, тормозная жидкость, антифриз, фильтры.</p>
+            <p class="card__price">от 600 ₽ <span>/ работа</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="40" height="40"><rect x="8" y="10" width="32" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="3.2"/><path d="M14 40h20M18 22l4 4 8-8" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h4 class="card__title">Диагностика и сход-развал</h4>
+            <p class="card__sub">Компьютерная диагностика, развал-схождение на 3D-стенде.</p>
+            <p class="card__price">от 900 ₽ <span>/ услуга</span></p>
+            <a class="card__link" href="#contacts">Записаться<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </article>
+        </div>
+        <p class="demo-note">Цены в разделе — демонстрационные, для верстки. Финальный прайс подставим после подтверждения.</p>
+      </div>
+    </section>
+
+    <!-- ПРАЙС -->
+    <section class="section section--dark" id="prices">
+      <div class="container">
+        <p class="section__label section__label--light">Прозрачно до начала работ</p>
+        <h2 class="section__title section__title--light">Прайс на популярные работы</h2>
+        <div class="price-grid">
+          <div class="price-block">
+            <h3>Шиномонтаж</h3>
+            <table class="price-table">
+              <thead><tr><th>Услуга</th><th>Легковой</th><th>Кроссовер</th></tr></thead>
+              <tbody>
+                <tr><td>Снять / установить (за колесо)</td><td>300 ₽</td><td>400 ₽</td></tr>
+                <tr><td>Балансировка (за колесо)</td><td>300 ₽</td><td>400 ₽</td></tr>
+                <tr><td>Ремонт прокола (грибок)</td><td>400 ₽</td><td>500 ₽</td></tr>
+                <tr><td>Подкачка (за колесо)</td><td>50 ₽</td><td>50 ₽</td></tr>
+                <tr><td>Комплекс «перебортовка комплекта»</td><td>1 200 ₽</td><td>1 600 ₽</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="price-block">
+            <h3>Автосервис</h3>
+            <table class="price-table">
+              <thead><tr><th>Услуга</th><th>Цена</th></tr></thead>
+              <tbody>
+                <tr><td>Замена колодок (перед / зад)</td><td>от 800 ₽</td></tr>
+                <tr><td>Замена масла ДВС (работа)</td><td>от 600 ₽</td></tr>
+                <tr><td>Диагностика ходовой</td><td>бесплатно</td></tr>
+                <tr><td>Развал-схождение 3D</td><td>от 1 500 ₽</td></tr>
+                <tr><td>Компьютерная диагностика</td><td>от 900 ₽</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <p class="price-note">Точную стоимость мастер подтвердит после осмотра — по телефону <a href="tel:+70000000000">+7 (000) 000-00-00</a>.</p>
+        <p class="demo-note">Таблица — демонстрационная, цены не являются публичной офертой.</p>
+      </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="section" id="why">
+      <div class="container">
+        <p class="section__label">Почему мы</p>
+        <h2 class="section__title">Шесть причин заехать к нам</h2>
+        <ol class="facts">
+          <li class="fact"><span class="fact__num">01</span><div><h4>Запись в два клика</h4><p>Приезжаете к назначенному времени — машина сразу на пост.</p></div></li>
+          <li class="fact"><span class="fact__num">02</span><div><h4>Согласуем до работ</h4><p>Называем стоимость до начала ремонта и не меняем её в процессе.</p></div></li>
+          <li class="fact"><span class="fact__num">03</span><div><h4>Свой балансировочный цех</h4><p>Балансируем на современных стендах, включая низкопрофильную резину.</p></div></li>
+          <li class="fact"><span class="fact__num">04</span><div><h4>Ремонт, а не замена</h4><p>Проколы и порезы чиним там, где другие предлагают новую шину.</p></div></li>
+          <li class="fact"><span class="fact__num">05</span><div><h4>Комфортная зона ожидания</h4><p>Wi-Fi, кофе и вид на пост — работы по записи занимают от 30 минут.</p></div></li>
+          <li class="fact"><span class="fact__num">06</span><div><h4>Гарантия на работы</h4><p>По договору: если что-то пошло не так — разбираемся бесплатно.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="section section--steel" id="reviews">
+      <div class="container">
+        <p class="section__label section__label--light">Говорят клиенты</p>
+        <h2 class="section__title section__title--light">Отзывы</h2>
+        <div class="reviews">
+          <blockquote class="review">
+            <p>«Пробил колесо на трассе, приняли без записи. Прокол завулканизировали за полчаса, колесо как новое».</p>
+            <footer>— Дмитрий, пример отзыва</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>«Менял тормозные колодки: сначала назвали цену, потом сделали. Никаких „а ещё надо“ в чеке».</p>
+            <footer>— Анна, пример отзыва</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>«Делаю сезонный шиномонтаж здесь третий год. Быстро, аккуратно с дисками, балансировка держится».</p>
+            <footer>— Сергей, пример отзыва</footer>
+          </blockquote>
+        </div>
+        <p class="demo-note">Отзывы — примеры для вёрстки. Реальные отзывы добавим после подтверждения.</p>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ + ФОРМА -->
+    <section class="section" id="contacts">
+      <div class="container contacts">
+        <div class="contacts__info">
+          <p class="section__label">Контакты</p>
+          <h2 class="section__title">Приезжайте — или мы перезвоним</h2>
+          <ul class="contacts__list">
+            <li>
+              <strong>Адрес</strong>
+              <span>г. Ваш город, ул. Примерная, 1 <em class="demo-tag">демо</em></span>
+            </li>
+            <li>
+              <strong>Часы работы</strong>
+              <span>Ежедневно 08:00–21:00, без перерывов</span>
+            </li>
+            <li>
+              <strong>Телефон</strong>
+              <span><a href="tel:+70000000000">+7 (000) 000-00-00</a> <em class="demo-tag">демо</em></span>
+            </li>
+          </ul>
+          <div class="contacts__map" role="img" aria-label="Схема проезда (демонстрационная)">
+            <svg viewBox="0 0 400 220" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="220" fill="#46617e"/>
+              <path d="M0 110 H400" stroke="#a3beab" stroke-width="10"/>
+              <path d="M140 0 V220" stroke="#a3beab" stroke-width="7"/>
+              <path d="M280 0 V220" stroke="#79a0bd" stroke-width="5"/>
+              <g transform="translate(196 66)">
+                <path d="M24 0 48 12 V42 H34 V30 H14 V42 H0 V12 Z" fill="#1e243c" stroke="#ccd79f" stroke-width="2.4"/>
+                <text x="24" y="62" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="13" font-weight="800" fill="#ccd79f">МЫ ЗДЕСЬ</text>
+              </g>
+              <text x="12" y="130" font-family="Manrope, sans-serif" font-size="11" fill="#f4f6f2">ул. Примерная (демо-карта)</text>
+            </svg>
+          </div>
+        </div>
+
+        <form class="form" id="callback-form" novalidate>
+          <h3>Обратный звонок</h3>
+          <p class="form__hint">Оставьте имя и телефон — администратор перезвонит в течение 15 минут в часы работы.</p>
+          <div class="form__field">
+            <label for="f-name">Имя</label>
+            <input type="text" id="f-name" name="name" autocomplete="name" maxlength="50" placeholder="Как к вам обращаться" required>
+            <span class="form__error" id="err-name" hidden>Укажите имя.</span>
+          </div>
+          <div class="form__field">
+            <label for="f-phone">Телефон</label>
+            <input type="tel" id="f-phone" name="phone" autocomplete="tel" inputmode="tel" maxlength="18" placeholder="+7 (___) ___-__-__" required>
+            <span class="form__error" id="err-phone" hidden>Введите номер в формате +7 (XXX) XXX-XX-XX.</span>
+          </div>
+          <label class="form__check">
+            <input type="checkbox" id="f-consent">
+            <span>Даю согласие на обработку моего имени и номера телефона для обратного звонка по заявке</span>
+          </label>
+          <p class="form__error form__error--consent" id="err-consent" hidden>Чтобы отправить заявку, подтвердите согласие на обработку данных.</p>
+          <button class="btn btn--lime form__submit" type="submit">Позвоните мне</button>
+          <p class="form__docs">
+            <a href="consent.html" target="_blank" rel="noopener">Согласие на обработку персональных данных</a>
+            ·
+            <a href="policy.html" target="_blank" rel="noopener">Политика обработки персональных данных</a>
+          </p>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="demo-note">Форма работает в деморежиме: заявка никуда не отправляется.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="assets/logo-light.svg" alt="Гараж №1" width="140" height="42">
+      <p class="footer__text">СТО и шиномонтаж «Гараж №1». Демонстрационная версия сайта: адрес, телефон и цены — заполнители.</p>
+      <nav class="footer__links" aria-label="Документы">
+        <a href="consent.html" target="_blank" rel="noopener">Согласие на обработку персональных данных</a>
+        <a href="policy.html" target="_blank" rel="noopener">Политика обработки персональных данных</a>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> Гараж №1</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

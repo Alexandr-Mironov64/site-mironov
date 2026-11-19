@@ -1,0 +1,9 @@
+{
+  "name": "garage-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт-визитка СТО и шиномонтажа «Гараж №1»",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
